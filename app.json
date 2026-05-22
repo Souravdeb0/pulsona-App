@@ -8,7 +8,9 @@
     "scheme": "pulsonaapp",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/icon.png",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.pulsona.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,10 +19,12 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "package": "Pulsona.Healthcare",
+      "googleServicesFile": "./google-services.json",
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -34,11 +38,30 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "googleServicesPluginVersion": "4.4.4",
+            "firebaseBomVersion": "34.13.0"
+          }
+        }
+      ],
+      "@react-native-google-signin/google-signin",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser",
+      "expo-audio",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": false
     }
   }
 }

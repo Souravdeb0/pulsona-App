@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755566412095",
+    "project_id": "pulsona-app",
+    "storage_bucket": "pulsona-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755566412095:android:b52e06471a1a0f00d1138a",
+        "android_client_info": {
+          "package_name": "Pulsona.Healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755566412095-fq3ohbt212v5vurlrm1mb4p2mqr26dg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbnTy5uouAI6JP0Wlr9MA1aWYPdj4tTMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755566412095-fq3ohbt212v5vurlrm1mb4p2mqr26dg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
